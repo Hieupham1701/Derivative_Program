@@ -26,39 +26,31 @@ git clone https://github.com/your-username/limit-derivative-calculator.git
 cd limit-derivative-calculator
 pip install sympy
 python limit_calculator.py
-📷 Example Usage
+## Example Usage
 ➤ Polynomial Limit
-bash
-Copy code
 Choose 'Poly'
 Enter degree: 2
 Enter coefficients: 1 -3 2   # for x² - 3x + 2
 x approaches: 2
 Result: 0
 ➤ Rational Limit with L’Hôpital
-bash
-Copy code
 Choose 'Rati'
 Numerator degree: 1 → Coefficients: 1 -1
 Denominator degree: 1 → Coefficients: 1 -1
 x approaches: 1
 Result: 1.0
 ➤ Symbolic Limit
-bash
-Copy code
 Choose 'Function'
 Numerator: sin(x)
 Denominator: x
 x approaches: 0
 Result: 1
-🗃 File Structure
-bash
-Copy code
-.
+## File Structure
+
 ├── limit_calculator.py     # Main script
 ├── Limit.txt               # Output log
 ├── README.md               # Project description
-🎯 Future Improvements
+## Future Improvements
  Add derivative calculation directly to CLI
 
  Add support for more math operations (integrals, graphs)
@@ -67,7 +59,7 @@ Copy code
 
  Improve input validation and error handling
 
-🙋 About This Project
+## About This Project
 This project was built as a practical application after completing an Introduction to Programming course.
 It combines basic programming skills with foundational calculus concepts, demonstrating how even beginner-level code can solve meaningful problems.
 

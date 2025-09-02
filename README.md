@@ -27,19 +27,22 @@ cd limit-derivative-calculator
 pip install sympy
 python limit_calculator.py
 ## Example Usage
-➤ Polynomial Limit
+### Polynomial Limit
+```bash
 Choose 'Poly'
 Enter degree: 2
 Enter coefficients: 1 -3 2   # for x² - 3x + 2
 x approaches: 2
 Result: 0
-➤ Rational Limit with L’Hôpital
+### Rational Limit with L’Hôpital
+```bash
 Choose 'Rati'
 Numerator degree: 1 → Coefficients: 1 -1
 Denominator degree: 1 → Coefficients: 1 -1
 x approaches: 1
 Result: 1.0
-➤ Symbolic Limit
+### Symbolic Limit
+```bash
 Choose 'Function'
 Numerator: sin(x)
 Denominator: x
@@ -63,5 +66,5 @@ Result: 1
 This project was built as a practical application after completing an Introduction to Programming course.
 It combines basic programming skills with foundational calculus concepts, demonstrating how even beginner-level code can solve meaningful problems.
 
-📄 License
-MIT License © 2025 [Your Name]
+### License
+MIT License © 2025 [Pham Hong Hieu]
